@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "push": "uxpin-merge push",
-    "start": "uxpin-merge --disable-tunneling"
+    "uxpin-server": "uxpin-merge server",
+    "uxpin-start": "uxpin-merge --disable-tunneling",
+    "uxpin-push": "uxpin-merge push"
   },
   "author": "",
   "license": "MIT",
